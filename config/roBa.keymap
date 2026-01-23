@@ -74,7 +74,7 @@
 &none  &none  &none  &none  &none  &none      &none  &none                       &none
             >;
     
-            sensor-bindings = <&mouse_scroll>;
+//            sensor-bindings = <&mouse_scroll>;
         };
 
         layer_6 {
@@ -85,7 +85,7 @@
 &none  &none         &none         &none         &none  &none      &none        &none                                                   &bt BT_CLR_ALL
             >;
 
-            sensor-bindings = <&mouse_scroll>;
+//            sensor-bindings = <&mouse_scroll>;
         };
     };
 };
