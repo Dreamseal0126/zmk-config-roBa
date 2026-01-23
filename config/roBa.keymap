@@ -74,7 +74,7 @@
 &none  &none  &none  &none  &none  &none      &none  &none                       &none
             >;
     
-            sensor-bindings = <&inc_dec_kp C_SCROLL_UP C_SCROLL_DOWN>;
+            sensor-bindings = <&mouse_scroll>;
         };
 
         layer_6 {
@@ -85,7 +85,7 @@
 &none  &none         &none         &none         &none  &none      &none        &none                                                   &bt BT_CLR_ALL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_SCROLL_RIGHT C_SCROLL_LEFT>;
+            sensor-bindings = <&mouse_scroll>;
         };
     };
 };
