@@ -19,7 +19,6 @@
     //         <&kp LEFT_ARROW>,
     //         <&kp UP_ARROW>,
     //         <&kp DOWN_ARROW>;
-
     //     tick = <10>;
     //     wait-ms = <5>;
     //     tap-ms = <5>;
@@ -103,13 +102,13 @@
 
         NUM {
             bindings = <
-&kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp MINUS                            &kp RIGHT_BRACKET      &kp INT_KANA  &kp INT5      &kp HOME       &kp END
-&kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp PLUS   &trans            &trans  &kp RIGHT_PARENTHESIS  &kp PAGE_UP   &kp UP_ARROW  &kp PAGE_DOWN  &kp COLON
+&kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp MINUS                                &kp RIGHT_BRACKET      &kp INT_KANA  &kp INT5      &kp HOME       &kp END
+&kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp PLUS       &trans            &trans  &kp RIGHT_PARENTHESIS  &kp PAGE_UP   &kp UP_ARROW  &kp PAGE_DOWN  &kp COLON
 &kp SLASH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp LS(MINUS)  &kp ESCAPE        &trans  &kp RIGHT_BRACE        &kp LEFT      &kp DOWN      &kp RIGHT      &kp LEFT_WIN
-&kp ESCAPE    &kp N0        &kp DOT       &kp LEFT_SHIFT  &trans     &kp LEFT_ALT      &trans  &trans                                                            &kp RCTRL
+&kp ESCAPE    &kp N0        &kp DOT       &kp LEFT_SHIFT  &trans         &kp LEFT_ALT      &trans  &trans                                                            &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         ARROW {
